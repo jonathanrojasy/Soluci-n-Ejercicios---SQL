@@ -5,7 +5,7 @@ left join departments AS D
 on D.department_id =  E.employee_id
 left join jobs as J
 on J.job_id = E.job_id 
-where salary between 4500 and 15001;
+where salary between 4500 and 14999.999;
 
 --PREGUNTA 2
 select e.employee_id , e.first_name , c.country_name 
